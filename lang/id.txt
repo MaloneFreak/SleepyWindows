@@ -1,0 +1,50 @@
+# SleepyWindows - Bahasa Indonesia
+
+_name = Bahasa Indonesia
+
+WhatToDo = Apa yang ingin dilakukan?
+InHowLong = Berapa lama lagi?
+CustomTime = Waktu khusus
+UnitSeconds = dtk
+UnitMinutes = mnt
+UnitHours = jam
+PresetMinutes = {0} mnt
+PresetHours = {0} jam
+PresetHoursMinutes = {0} jam {1} mnt
+Schedule = Jadwalkan
+CancelExisting = Batalkan jadwal mematikan PC yang sudah ada
+Language = Bahasa
+LanguageAuto = Otomatis (bahasa Windows)
+
+ActionShutdown = Matikan
+ActionRestart = Mulai ulang
+ActionSleep = Tidur
+ActionHibernate = Hibernasi
+
+CountdownShutdown = Mati dalam
+CountdownRestart = Mulai ulang dalam
+CountdownSleep = Tidur dalam
+CountdownHibernate = Hibernasi dalam
+Snooze = +15 mnt
+Cancel = Batal
+
+AtTime = pukul {0}
+TomorrowAt = besok pukul {0}
+DateAt = {0} pukul {1}
+
+HintWindowsScheduler = Aplikasi boleh ditutup, Windows akan mengurus sisanya. Simpan pekerjaan Anda dulu: program yang terbuka akan ditutup.
+HintAppTimer = Biarkan SleepyWindows tetap terbuka (boleh diminimalkan). Menutup aplikasi akan membatalkan timer.
+
+CommentShutdown = PC dijadwalkan mati oleh SleepyWindows.
+CommentRestart = PC dijadwalkan mulai ulang oleh SleepyWindows.
+
+InvalidNumber = Masukkan bilangan bulat yang lebih besar dari nol.
+TooLong = Pilih waktu maksimal 999 jam.
+AlreadyScheduled = Windows sudah memiliki jadwal mematikan atau memulai ulang PC.\n\nGanti dengan yang ini?
+WindowsRefused = Windows menolak permintaan (kode {0}).
+CouldNotRun = Tidak dapat menjalankan shutdown.exe Windows.
+ExistingCancelled = Selesai, jadwal mematikan PC telah dibatalkan.
+NothingToCancel = Tidak ada jadwal mematikan PC.
+CloseCancelsTimer = Menutup SleepyWindows akan membatalkan timer.\n\nTetap tutup?
+HibernateUnavailable = Hibernasi dinonaktifkan di PC ini.\n\nUntuk mengaktifkannya, buka Command Prompt sebagai administrator dan jalankan: powercfg /h on
+SuspendFailed = Windows tidak dapat menidurkan atau menghibernasi PC.

@@ -1,0 +1,50 @@
+# SleepyWindows - Українська
+
+_name = Українська
+
+WhatToDo = Що зробити?
+InHowLong = Через скільки?
+CustomTime = Свій час
+UnitSeconds = с
+UnitMinutes = хв
+UnitHours = год
+PresetMinutes = {0} хв
+PresetHours = {0} год
+PresetHoursMinutes = {0} год {1} хв
+Schedule = Запланувати
+CancelExisting = Скасувати вже заплановане вимкнення
+Language = Мова
+LanguageAuto = Автоматично (мова Windows)
+
+ActionShutdown = Вимкнути
+ActionRestart = Перезавантажити
+ActionSleep = Сплячий режим
+ActionHibernate = Глибокий сон
+
+CountdownShutdown = Вимкнення через
+CountdownRestart = Перезавантаження через
+CountdownSleep = Сплячий режим через
+CountdownHibernate = Глибокий сон через
+Snooze = +15 хв
+Cancel = Скасувати
+
+AtTime = о {0}
+TomorrowAt = завтра о {0}
+DateAt = {0} о {1}
+
+HintWindowsScheduler = Програму можна закрити, Windows зробить усе сама. Спершу збережіть роботу: відкриті програми буде закрито.
+HintAppTimer = Не закривайте SleepyWindows (можна згорнути). Закриття програми скасовує таймер.
+
+CommentShutdown = Вимкнення заплановано через SleepyWindows.
+CommentRestart = Перезавантаження заплановано через SleepyWindows.
+
+InvalidNumber = Введіть ціле число, більше за нуль.
+TooLong = Виберіть час не більше 999 годин.
+AlreadyScheduled = У Windows уже заплановано вимкнення або перезавантаження.\n\nЗамінити на нове?
+WindowsRefused = Windows відхилила запит (код {0}).
+CouldNotRun = Не вдалося запустити shutdown.exe Windows.
+ExistingCancelled = Готово, заплановане вимкнення скасовано.
+NothingToCancel = Запланованого вимкнення не було.
+CloseCancelsTimer = Закриття SleepyWindows скасовує таймер.\n\nУсе одно закрити?
+HibernateUnavailable = Глибокий сон вимкнено на цьому комп'ютері.\n\nЩоб увімкнути його, відкрийте командний рядок від імені адміністратора й виконайте: powercfg /h on
+SuspendFailed = Windows не вдалося перевести комп'ютер у сплячий режим або глибокий сон.

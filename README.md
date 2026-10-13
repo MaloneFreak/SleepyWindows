@@ -5,8 +5,8 @@
 <h1 align="center">SleepyWindows</h1>
 
 <p align="center">
-  Um timer simples e portátil para desligar, reiniciar, suspender ou hibernar o Windows.<br>
-  A simple, portable timer to shut down, restart, sleep or hibernate Windows.
+  A simple, portable timer to shut down, restart, sleep or hibernate Windows.<br>
+  Available in 16 languages.
 </p>
 
 <p align="center">
@@ -14,78 +14,26 @@
 </p>
 
 <p align="center">
-  <img src="docs/preview.png" alt="SleepyWindows: tela inicial e contagem regressiva" width="700">
+  <img src="docs/preview.png" alt="SleepyWindows: main screen and countdown" width="720">
 </p>
 
-<p align="center"><a href="#português">Português</a> · <a href="#english">English</a></p>
-
----
-
-## Português
-
-### O que faz
-
-- Escolha a ação: **Desligar**, **Reiniciar**, **Suspender** ou **Hibernar**.
-- Clique num tempo pronto (10 min, 20 min, 30 min, 45 min, 1 h, 1h30, 2 h, 3 h) e pronto, já está agendado.
-- Ou digite um tempo personalizado em **segundos, minutos ou horas** (até 999 horas) e clique em **Agendar** (ou aperte Enter).
-- Mostra a contagem regressiva e o horário exato em que vai acontecer.
-- **+15 min** adia, **Cancelar** desiste.
-- **Portátil**: um único `.exe` com menos de 200 KB. Não instala nada e não grava nada no registro.
-- Interface em português ou inglês, de acordo com o idioma do Windows.
-
-### Como usar
-
-1. Baixe o `SleepyWindows.exe` em [Releases](https://github.com/MaloneFreak/SleepyWindows/releases/latest) e coloque onde quiser (área de trabalho, pendrive...).
-2. Abra. Se aparecer "O Windows protegeu o computador", clique em **Mais informações → Executar assim mesmo**. Isso acontece com qualquer programa sem assinatura digital paga.
-3. Escolha a ação e o tempo.
-
-### Como funciona
-
-- **Desligar e Reiniciar** usam o agendador do próprio Windows (`shutdown /s /t` e `shutdown /r /t`).
-  Depois de agendar, **pode fechar o app**: o Windows desliga do mesmo jeito.
-  Para desistir depois de ter fechado, abra o app de novo e clique em *Cancelar um desligamento já agendado* (é o mesmo que `shutdown /a`).
-  Atenção: com um tempo maior que zero, o Windows fecha os programas abertos à força, então salve seus arquivos.
-- **Suspender e Hibernar** não têm timer no Windows, então o próprio app conta o tempo e suspende no final.
-  Nesse modo o **app precisa ficar aberto** (pode minimizar). Um minuto antes, a janela volta para a frente para dar tempo de cancelar.
-- **Hibernar** aparece apagado se a hibernação estiver desativada no PC. Para ativar, rode `powercfg /h on` num Prompt de Comando como administrador.
-
-### Requisitos
-
-Windows 10 ou 11. Não precisa instalar nada: o app usa o .NET Framework que já vem com o Windows.
-Deve funcionar também no Windows 7 e 8.1 com o .NET Framework 4.6.2 ou mais novo instalado.
-
-### Compilar a partir do código
-
-Com o [.NET SDK](https://dotnet.microsoft.com/download) 6 ou mais novo:
-
-```
-dotnet build -c Release
-```
-
-O executável sai em `bin/Release/net462/SleepyWindows.exe`.
-Cada tag `v*` enviada ao GitHub compila o app no Windows e publica uma release automaticamente (veja [`.github/workflows/build.yml`](.github/workflows/build.yml)).
-
----
-
-## English
-
-### What it does
+## Features
 
 - Pick an action: **Shut down**, **Restart**, **Sleep** or **Hibernate**.
-- Click a preset (10 min, 20 min, 30 min, 45 min, 1 h, 1h30, 2 h, 3 h) and it's scheduled.
+- Click a preset (10 min, 20 min, 30 min, 45 min, 1 h, 1 h 30, 2 h, 3 h) and it's scheduled.
 - Or type a custom time in **seconds, minutes or hours** (up to 999 hours) and click **Schedule** (or press Enter).
 - Shows a countdown and the exact time it will happen.
 - **+15 min** to snooze, **Cancel** to call it off.
 - **Portable**: a single `.exe` under 200 KB. Nothing to install, nothing written to the registry.
-- English or Portuguese interface, following your Windows language.
+- **16 languages**, picked automatically from your Windows language, with a globe button to switch.
 
-### How to use
+## How to use
 
 1. Download `SleepyWindows.exe` from [Releases](https://github.com/MaloneFreak/SleepyWindows/releases/latest) and put it anywhere (desktop, USB stick...).
 2. Run it. If you see "Windows protected your PC", click **More info → Run anyway**. That happens with any app that doesn't have a paid code-signing certificate.
 3. Pick the action and the time.
 
-### How it works
+## How it works
 
 - **Shut down and Restart** use Windows' own scheduler (`shutdown /s /t` and `shutdown /r /t`).
   Once scheduled, **you can close the app**: Windows will still shut down.
@@ -95,12 +43,36 @@ Cada tag `v*` enviada ao GitHub compila o app no Windows e publica uma release a
   In this mode the **app has to stay open** (minimizing is fine). One minute before, the window comes back to the front so you can still cancel.
 - **Hibernate** is greyed out when hibernation is turned off. To turn it on, run `powercfg /h on` in an administrator Command Prompt.
 
-### Requirements
+## Languages
+
+| | | | |
+|---|---|---|---|
+| English | Português | Español | Français |
+| Deutsch | Italiano | Nederlands | Polski |
+| Русский | Українська | Türkçe | Bahasa Indonesia |
+| 日本語 | 简体中文 | 繁體中文 | 한국어 |
+
+SleepyWindows follows your Windows display language. To use a different one, click the globe button in the top-right corner.
+A language picked by hand is remembered in `%AppData%\SleepyWindows\settings.ini`. Choosing *Automatic* again deletes that file.
+
+### Adding or fixing a translation
+
+Translations are plain text files in [`lang/`](lang), one per language, in `key = value` format.
+They are built into the `.exe`, so the app stays a single file.
+
+1. Copy [`lang/en.txt`](lang/en.txt) to `lang/<code>.txt`, using the language code (e.g. `sv.txt`, `cs.txt`, `pt-PT.txt`).
+2. Set `_name` to the language's own name (e.g. `Svenska`) and translate the values. Keep `{0}` and `{1}` as they are.
+3. Check it with `python tools/check-translations.py` and open a pull request.
+
+No code changes are needed: every file in `lang/` is picked up automatically. Any key you leave out falls back to English.
+Corrections to the existing translations are very welcome too.
+
+## Requirements
 
 Windows 10 or 11. Nothing to install: the app runs on the .NET Framework that ships with Windows.
 It should also work on Windows 7 and 8.1 with .NET Framework 4.6.2 or newer installed.
 
-### Building from source
+## Building from source
 
 With the [.NET SDK](https://dotnet.microsoft.com/download) 6 or newer:
 
@@ -109,20 +81,21 @@ dotnet build -c Release
 ```
 
 The executable ends up in `bin/Release/net462/SleepyWindows.exe`.
-Every `v*` tag pushed to GitHub builds the app on Windows and publishes a release automatically (see [`.github/workflows/build.yml`](.github/workflows/build.yml)).
-
----
+Every `v*` tag pushed to GitHub builds the app on Windows and attaches the `.exe` to the release (see [`.github/workflows/build.yml`](.github/workflows/build.yml)).
 
 ## Project layout
 
 ```
 src/
   Program.cs        entry point, single-instance check
-  MainForm.cs       the window: presets, custom time, countdown
+  MainForm.cs       the window: presets, custom time, countdown, language menu
   PowerControl.cs   shutdown.exe calls and sleep/hibernate
-  Controls.cs       dark theme, rounded buttons, number box
-  Strings.cs        Portuguese / English text
+  Strings.cs        loads the translations and picks the language
+  Settings.cs       remembers a hand-picked language
+  Controls.cs       dark theme, rounded buttons, number box, menu colors
   NativeMethods.cs  dark title bar, hibernate check
+lang/               one translation file per language
+tools/              translation checker
 assets/             icons
 ```
 

@@ -1,0 +1,50 @@
+# SleepyWindows - Português (Brasil)
+
+_name = Português
+
+WhatToDo = O que fazer?
+InHowLong = Em quanto tempo?
+CustomTime = Tempo personalizado
+UnitSeconds = seg
+UnitMinutes = min
+UnitHours = h
+PresetMinutes = {0} min
+PresetHours = {0} h
+PresetHoursMinutes = {0}h{1:00}
+Schedule = Agendar
+CancelExisting = Cancelar um desligamento já agendado
+Language = Idioma
+LanguageAuto = Automático (idioma do Windows)
+
+ActionShutdown = Desligar
+ActionRestart = Reiniciar
+ActionSleep = Suspender
+ActionHibernate = Hibernar
+
+CountdownShutdown = Desligando em
+CountdownRestart = Reiniciando em
+CountdownSleep = Suspendendo em
+CountdownHibernate = Hibernando em
+Snooze = +15 min
+Cancel = Cancelar
+
+AtTime = às {0}
+TomorrowAt = amanhã às {0}
+DateAt = {0} às {1}
+
+HintWindowsScheduler = Pode fechar o app, o Windows cuida do resto. Salve seus arquivos antes: os programas abertos serão fechados.
+HintAppTimer = Deixe o SleepyWindows aberto (pode minimizar). Fechar o app cancela o timer.
+
+CommentShutdown = Desligamento agendado pelo SleepyWindows.
+CommentRestart = Reinício agendado pelo SleepyWindows.
+
+InvalidNumber = Digite um número inteiro maior que zero.
+TooLong = Escolha um tempo de até 999 horas.
+AlreadyScheduled = Já existe um desligamento ou reinício agendado no Windows.\n\nSubstituir pelo novo?
+WindowsRefused = O Windows recusou o pedido (código {0}).
+CouldNotRun = Não foi possível executar o shutdown.exe do Windows.
+ExistingCancelled = Pronto, o desligamento agendado foi cancelado.
+NothingToCancel = Não havia nenhum desligamento agendado.
+CloseCancelsTimer = Fechar o SleepyWindows cancela o timer.\n\nFechar mesmo assim?
+HibernateUnavailable = A hibernação está desativada neste PC.\n\nPara ativar, abra o Prompt de Comando como administrador e rode: powercfg /h on
+SuspendFailed = O Windows não conseguiu suspender ou hibernar o PC.

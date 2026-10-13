@@ -1,0 +1,63 @@
+# SleepyWindows - English (base language)
+#
+# Format: key = value
+# - Lines starting with # are comments.
+# - \n is a line break (used in message boxes).
+# - {0} and {1} are filled in by the app; keep them. {1:00} means "always two digits" (1h05).
+# - To add a language, copy this file to lang/<code>.txt (e.g. sv.txt), translate the values
+#   and send a pull request. Missing keys fall back to English.
+
+_name = English
+
+# Main screen
+WhatToDo = What should happen?
+InHowLong = In how long?
+CustomTime = Custom time
+UnitSeconds = sec
+UnitMinutes = min
+UnitHours = h
+PresetMinutes = {0} min
+PresetHours = {0} h
+PresetHoursMinutes = {0}h {1:00}m
+Schedule = Schedule
+CancelExisting = Cancel a shutdown that's already scheduled
+Language = Language
+LanguageAuto = Automatic (Windows language)
+
+# Actions
+ActionShutdown = Shut down
+ActionRestart = Restart
+ActionSleep = Sleep
+ActionHibernate = Hibernate
+
+# Countdown screen (shown above the clock)
+CountdownShutdown = Shutting down in
+CountdownRestart = Restarting in
+CountdownSleep = Going to sleep in
+CountdownHibernate = Hibernating in
+Snooze = +15 min
+Cancel = Cancel
+
+# {0} = time, e.g. 23:30. In DateAt, {0} = date (e.g. October 14), {1} = time.
+AtTime = at {0}
+TomorrowAt = tomorrow at {0}
+DateAt = {0} at {1}
+
+HintWindowsScheduler = You can close the app, Windows takes it from here. Save your work first: open programs will be closed.
+HintAppTimer = Keep SleepyWindows open (minimizing is fine). Closing the app cancels the timer.
+
+# Shown by Windows in its own shutdown notification
+CommentShutdown = Shutdown scheduled by SleepyWindows.
+CommentRestart = Restart scheduled by SleepyWindows.
+
+# Messages
+InvalidNumber = Enter a whole number greater than zero.
+TooLong = Pick a time up to 999 hours.
+AlreadyScheduled = Windows already has a shutdown or restart scheduled.\n\nReplace it with this one?
+WindowsRefused = Windows refused the request (code {0}).
+CouldNotRun = Couldn't run Windows' shutdown.exe.
+ExistingCancelled = Done, the scheduled shutdown was cancelled.
+NothingToCancel = There was no scheduled shutdown to cancel.
+CloseCancelsTimer = Closing SleepyWindows cancels the timer.\n\nClose anyway?
+HibernateUnavailable = Hibernation is turned off on this PC.\n\nTo turn it on, open Command Prompt as administrator and run: powercfg /h on
+SuspendFailed = Windows couldn't put the PC to sleep or hibernate it.

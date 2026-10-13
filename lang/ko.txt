@@ -1,0 +1,50 @@
+# SleepyWindows - 한국어
+
+_name = 한국어
+
+WhatToDo = 무엇을 할까요?
+InHowLong = 얼마 후에?
+CustomTime = 직접 입력
+UnitSeconds = 초
+UnitMinutes = 분
+UnitHours = 시간
+PresetMinutes = {0}분
+PresetHours = {0}시간
+PresetHoursMinutes = {0}시간 {1}분
+Schedule = 예약
+CancelExisting = 이미 예약된 종료 취소
+Language = 언어
+LanguageAuto = 자동 (Windows 언어)
+
+ActionShutdown = 시스템 종료
+ActionRestart = 다시 시작
+ActionSleep = 절전
+ActionHibernate = 최대 절전
+
+CountdownShutdown = 시스템 종료까지
+CountdownRestart = 다시 시작까지
+CountdownSleep = 절전까지
+CountdownHibernate = 최대 절전까지
+Snooze = +15분
+Cancel = 취소
+
+AtTime = {0}에 실행
+TomorrowAt = 내일 {0}에 실행
+DateAt = {0} {1}에 실행
+
+HintWindowsScheduler = 앱을 닫아도 됩니다. 나머지는 Windows가 처리합니다. 먼저 작업을 저장하세요. 열려 있는 프로그램은 닫힙니다.
+HintAppTimer = SleepyWindows를 열어 두세요 (최소화는 괜찮습니다). 앱을 닫으면 타이머가 취소됩니다.
+
+CommentShutdown = SleepyWindows에서 시스템 종료를 예약했습니다.
+CommentRestart = SleepyWindows에서 다시 시작을 예약했습니다.
+
+InvalidNumber = 0보다 큰 정수를 입력하세요.
+TooLong = 999시간 이하로 선택하세요.
+AlreadyScheduled = Windows에 이미 예약된 종료 또는 다시 시작이 있습니다.\n\n이것으로 바꿀까요?
+WindowsRefused = Windows가 요청을 거부했습니다 (코드 {0}).
+CouldNotRun = Windows의 shutdown.exe를 실행할 수 없습니다.
+ExistingCancelled = 예약된 종료가 취소되었습니다.
+NothingToCancel = 예약된 종료가 없습니다.
+CloseCancelsTimer = SleepyWindows를 닫으면 타이머가 취소됩니다.\n\n그래도 닫을까요?
+HibernateUnavailable = 이 PC에서 최대 절전 모드가 꺼져 있습니다.\n\n켜려면 관리자 권한으로 명령 프롬프트를 열고 다음을 실행하세요: powercfg /h on
+SuspendFailed = Windows가 PC를 절전 또는 최대 절전 모드로 전환하지 못했습니다.

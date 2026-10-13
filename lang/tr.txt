@@ -1,0 +1,50 @@
+# SleepyWindows - Türkçe
+
+_name = Türkçe
+
+WhatToDo = Ne yapılsın?
+InHowLong = Ne kadar sonra?
+CustomTime = Özel süre
+UnitSeconds = sn
+UnitMinutes = dk
+UnitHours = sa
+PresetMinutes = {0} dk
+PresetHours = {0} sa
+PresetHoursMinutes = {0} sa {1} dk
+Schedule = Zamanla
+CancelExisting = Zaten zamanlanmış bir kapatmayı iptal et
+Language = Dil
+LanguageAuto = Otomatik (Windows dili)
+
+ActionShutdown = Kapat
+ActionRestart = Yeniden başlat
+ActionSleep = Uyku
+ActionHibernate = Hazırda beklet
+
+CountdownShutdown = Kapanmaya kalan süre
+CountdownRestart = Yeniden başlatmaya kalan süre
+CountdownSleep = Uykuya kalan süre
+CountdownHibernate = Hazırda beklemeye kalan süre
+Snooze = +15 dk
+Cancel = İptal
+
+AtTime = saat {0}
+TomorrowAt = yarın saat {0}
+DateAt = {0}, saat {1}
+
+HintWindowsScheduler = Uygulamayı kapatabilirsiniz, gerisini Windows halleder. Önce çalışmalarınızı kaydedin: açık programlar kapatılacak.
+HintAppTimer = SleepyWindows'u açık tutun (simge durumuna küçültebilirsiniz). Uygulamayı kapatmak zamanlayıcıyı iptal eder.
+
+CommentShutdown = Kapatma, SleepyWindows tarafından zamanlandı.
+CommentRestart = Yeniden başlatma, SleepyWindows tarafından zamanlandı.
+
+InvalidNumber = Sıfırdan büyük bir tam sayı girin.
+TooLong = En fazla 999 saatlik bir süre seçin.
+AlreadyScheduled = Windows'ta zaten zamanlanmış bir kapatma veya yeniden başlatma var.\n\nBununla değiştirilsin mi?
+WindowsRefused = Windows isteği reddetti (kod {0}).
+CouldNotRun = Windows'un shutdown.exe programı çalıştırılamadı.
+ExistingCancelled = Tamam, zamanlanmış kapatma iptal edildi.
+NothingToCancel = Zamanlanmış bir kapatma yoktu.
+CloseCancelsTimer = SleepyWindows'u kapatmak zamanlayıcıyı iptal eder.\n\nYine de kapatılsın mı?
+HibernateUnavailable = Bu bilgisayarda hazırda bekletme kapalı.\n\nAçmak için Komut İstemi'ni yönetici olarak açın ve şunu çalıştırın: powercfg /h on
+SuspendFailed = Windows bilgisayarı uyku moduna veya hazırda bekletmeye alamadı.

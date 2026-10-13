@@ -1,0 +1,50 @@
+# SleepyWindows - Deutsch
+
+_name = Deutsch
+
+WhatToDo = Was soll passieren?
+InHowLong = Wie lange bis dahin?
+CustomTime = Eigene Dauer
+UnitSeconds = Sek.
+UnitMinutes = Min.
+UnitHours = Std.
+PresetMinutes = {0} Min.
+PresetHours = {0} Std.
+PresetHoursMinutes = {0}:{1:00} Std.
+Schedule = Planen
+CancelExisting = Bereits geplantes Herunterfahren abbrechen
+Language = Sprache
+LanguageAuto = Automatisch (Windows-Sprache)
+
+ActionShutdown = Herunterfahren
+ActionRestart = Neu starten
+ActionSleep = Energie sparen
+ActionHibernate = Ruhezustand
+
+CountdownShutdown = Herunterfahren in
+CountdownRestart = Neustart in
+CountdownSleep = Energiesparmodus in
+CountdownHibernate = Ruhezustand in
+Snooze = +15 Min.
+Cancel = Abbrechen
+
+AtTime = um {0}
+TomorrowAt = morgen um {0}
+DateAt = am {0} um {1}
+
+HintWindowsScheduler = Sie können die App schließen, Windows übernimmt den Rest. Speichern Sie vorher Ihre Arbeit: Geöffnete Programme werden geschlossen.
+HintAppTimer = Lassen Sie SleepyWindows geöffnet (Minimieren ist okay). Wenn Sie die App schließen, wird der Timer abgebrochen.
+
+CommentShutdown = Von SleepyWindows geplantes Herunterfahren.
+CommentRestart = Von SleepyWindows geplanter Neustart.
+
+InvalidNumber = Geben Sie eine ganze Zahl größer als null ein.
+TooLong = Wählen Sie eine Dauer von höchstens 999 Stunden.
+AlreadyScheduled = In Windows ist bereits ein Herunterfahren oder Neustart geplant.\n\nDurch diesen ersetzen?
+WindowsRefused = Windows hat die Anfrage abgelehnt (Code {0}).
+CouldNotRun = shutdown.exe von Windows konnte nicht ausgeführt werden.
+ExistingCancelled = Erledigt, das geplante Herunterfahren wurde abgebrochen.
+NothingToCancel = Es war kein Herunterfahren geplant.
+CloseCancelsTimer = Wenn Sie SleepyWindows schließen, wird der Timer abgebrochen.\n\nTrotzdem schließen?
+HibernateUnavailable = Der Ruhezustand ist auf diesem PC deaktiviert.\n\nZum Aktivieren die Eingabeaufforderung als Administrator öffnen und Folgendes ausführen: powercfg /h on
+SuspendFailed = Windows konnte den PC nicht in den Energiesparmodus oder Ruhezustand versetzen.

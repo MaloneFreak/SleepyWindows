@@ -20,6 +20,9 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
+      - name: Check translations
+        run: python tools/check-translations.py
+
       - name: Build
         run: dotnet build SleepyWindows.csproj -c Release
 

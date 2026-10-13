@@ -1,0 +1,50 @@
+# SleepyWindows - 繁體中文
+
+_name = 繁體中文
+
+WhatToDo = 要執行什麼動作？
+InHowLong = 多久之後？
+CustomTime = 自訂時間
+UnitSeconds = 秒
+UnitMinutes = 分鐘
+UnitHours = 小時
+PresetMinutes = {0} 分鐘
+PresetHours = {0} 小時
+PresetHoursMinutes = {0} 小時 {1} 分
+Schedule = 定時
+CancelExisting = 取消已排定的關機
+Language = 語言
+LanguageAuto = 自動（Windows 語言）
+
+ActionShutdown = 關機
+ActionRestart = 重新啟動
+ActionSleep = 睡眠
+ActionHibernate = 休眠
+
+CountdownShutdown = 距離關機還有
+CountdownRestart = 距離重新啟動還有
+CountdownSleep = 距離睡眠還有
+CountdownHibernate = 距離休眠還有
+Snooze = +15 分鐘
+Cancel = 取消
+
+AtTime = 將於 {0} 執行
+TomorrowAt = 將於明天 {0} 執行
+DateAt = 將於 {0} {1} 執行
+
+HintWindowsScheduler = 可以關閉本程式，剩下的交給 Windows。請先儲存你的工作：所有開啟的程式都會被關閉。
+HintAppTimer = 請保持 SleepyWindows 開啟（可以最小化）。關閉程式會取消計時。
+
+CommentShutdown = SleepyWindows 已排定關機。
+CommentRestart = SleepyWindows 已排定重新啟動。
+
+InvalidNumber = 請輸入大於零的整數。
+TooLong = 請選擇不超過 999 小時的時間。
+AlreadyScheduled = Windows 中已經排定了關機或重新啟動。\n\n要用這次的排程取代嗎？
+WindowsRefused = Windows 拒絕了要求（代碼 {0}）。
+CouldNotRun = 無法執行 Windows 的 shutdown.exe。
+ExistingCancelled = 完成，已取消排定的關機。
+NothingToCancel = 沒有已排定的關機。
+CloseCancelsTimer = 關閉 SleepyWindows 會取消計時。\n\n仍要關閉嗎？
+HibernateUnavailable = 這台電腦已停用休眠。\n\n若要啟用，請以系統管理員身分開啟命令提示字元並執行：powercfg /h on
+SuspendFailed = Windows 無法讓電腦進入睡眠或休眠狀態。

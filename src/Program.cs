@@ -21,6 +21,9 @@ namespace SleepyWindows
 
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
+
+                // Windows language by default, unless the user picked one in the app.
+                Strings.SetLanguage(Settings.LoadLanguage());
                 Application.Run(new MainForm());
             }
         }

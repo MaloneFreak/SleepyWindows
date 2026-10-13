@@ -1,0 +1,50 @@
+# SleepyWindows - 日本語
+
+_name = 日本語
+
+WhatToDo = 何をしますか？
+InHowLong = いつ実行しますか？
+CustomTime = 時間を指定
+UnitSeconds = 秒
+UnitMinutes = 分
+UnitHours = 時間
+PresetMinutes = {0}分
+PresetHours = {0}時間
+PresetHoursMinutes = {0}時間{1}分
+Schedule = 予約
+CancelExisting = 予約済みのシャットダウンを取り消す
+Language = 言語
+LanguageAuto = 自動 (Windows の言語)
+
+ActionShutdown = シャットダウン
+ActionRestart = 再起動
+ActionSleep = スリープ
+ActionHibernate = 休止状態
+
+CountdownShutdown = シャットダウンまで
+CountdownRestart = 再起動まで
+CountdownSleep = スリープまで
+CountdownHibernate = 休止状態まで
+Snooze = +15分
+Cancel = キャンセル
+
+AtTime = {0} に実行
+TomorrowAt = 明日 {0} に実行
+DateAt = {0} {1} に実行
+
+HintWindowsScheduler = アプリを閉じても大丈夫です。あとは Windows が実行します。先に作業内容を保存してください。開いているプログラムは閉じられます。
+HintAppTimer = SleepyWindows は開いたままにしてください (最小化は OK)。アプリを閉じるとタイマーは取り消されます。
+
+CommentShutdown = SleepyWindows によってシャットダウンが予約されました。
+CommentRestart = SleepyWindows によって再起動が予約されました。
+
+InvalidNumber = 0 より大きい整数を入力してください。
+TooLong = 999 時間以内で指定してください。
+AlreadyScheduled = Windows にはすでにシャットダウンまたは再起動が予約されています。\n\nこの予約に置き換えますか？
+WindowsRefused = Windows が要求を拒否しました (コード {0})。
+CouldNotRun = Windows の shutdown.exe を実行できませんでした。
+ExistingCancelled = 予約済みのシャットダウンを取り消しました。
+NothingToCancel = 予約されているシャットダウンはありませんでした。
+CloseCancelsTimer = SleepyWindows を閉じるとタイマーは取り消されます。\n\n閉じてもよろしいですか？
+HibernateUnavailable = この PC では休止状態が無効になっています。\n\n有効にするには、管理者としてコマンド プロンプトを開き、次を実行してください: powercfg /h on
+SuspendFailed = Windows は PC をスリープまたは休止状態にできませんでした。

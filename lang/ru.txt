@@ -1,0 +1,50 @@
+# SleepyWindows - Русский
+
+_name = Русский
+
+WhatToDo = Что сделать?
+InHowLong = Через сколько?
+CustomTime = Своё время
+UnitSeconds = сек
+UnitMinutes = мин
+UnitHours = ч
+PresetMinutes = {0} мин
+PresetHours = {0} ч
+PresetHoursMinutes = {0} ч {1} мин
+Schedule = Запланировать
+CancelExisting = Отменить уже запланированное выключение
+Language = Язык
+LanguageAuto = Автоматически (язык Windows)
+
+ActionShutdown = Выключить
+ActionRestart = Перезагрузить
+ActionSleep = Спящий режим
+ActionHibernate = Гибернация
+
+CountdownShutdown = Выключение через
+CountdownRestart = Перезагрузка через
+CountdownSleep = Спящий режим через
+CountdownHibernate = Гибернация через
+Snooze = +15 мин
+Cancel = Отмена
+
+AtTime = в {0}
+TomorrowAt = завтра в {0}
+DateAt = {0} в {1}
+
+HintWindowsScheduler = Приложение можно закрыть, Windows сделает всё сама. Сначала сохраните работу: открытые программы будут закрыты.
+HintAppTimer = Не закрывайте SleepyWindows (можно свернуть). Закрытие приложения отменяет таймер.
+
+CommentShutdown = Выключение запланировано SleepyWindows.
+CommentRestart = Перезагрузка запланирована SleepyWindows.
+
+InvalidNumber = Введите целое число больше нуля.
+TooLong = Выберите время не более 999 часов.
+AlreadyScheduled = В Windows уже запланировано выключение или перезагрузка.\n\nЗаменить на новое?
+WindowsRefused = Windows отклонила запрос (код {0}).
+CouldNotRun = Не удалось запустить shutdown.exe Windows.
+ExistingCancelled = Готово, запланированное выключение отменено.
+NothingToCancel = Запланированного выключения не было.
+CloseCancelsTimer = Закрытие SleepyWindows отменяет таймер.\n\nВсё равно закрыть?
+HibernateUnavailable = Гибернация отключена на этом компьютере.\n\nЧтобы включить её, откройте командную строку от имени администратора и выполните: powercfg /h on
+SuspendFailed = Windows не удалось перевести компьютер в спящий режим или гибернацию.

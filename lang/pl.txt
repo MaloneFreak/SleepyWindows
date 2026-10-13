@@ -1,0 +1,50 @@
+# SleepyWindows - Polski
+
+_name = Polski
+
+WhatToDo = Co zrobić?
+InHowLong = Za ile czasu?
+CustomTime = Własny czas
+UnitSeconds = s
+UnitMinutes = min
+UnitHours = godz.
+PresetMinutes = {0} min
+PresetHours = {0} godz.
+PresetHoursMinutes = {0}:{1:00} godz.
+Schedule = Zaplanuj
+CancelExisting = Anuluj już zaplanowane zamknięcie
+Language = Język
+LanguageAuto = Automatycznie (język systemu Windows)
+
+ActionShutdown = Zamknij
+ActionRestart = Uruchom ponownie
+ActionSleep = Uśpij
+ActionHibernate = Hibernuj
+
+CountdownShutdown = Zamknięcie za
+CountdownRestart = Ponowne uruchomienie za
+CountdownSleep = Uśpienie za
+CountdownHibernate = Hibernacja za
+Snooze = +15 min
+Cancel = Anuluj
+
+AtTime = o {0}
+TomorrowAt = jutro o {0}
+DateAt = {0} o {1}
+
+HintWindowsScheduler = Możesz zamknąć aplikację, Windows zajmie się resztą. Najpierw zapisz swoją pracę: otwarte programy zostaną zamknięte.
+HintAppTimer = Pozostaw SleepyWindows otwarte (można zminimalizować). Zamknięcie aplikacji anuluje odliczanie.
+
+CommentShutdown = Zamknięcie zaplanowane przez SleepyWindows.
+CommentRestart = Ponowne uruchomienie zaplanowane przez SleepyWindows.
+
+InvalidNumber = Wpisz liczbę całkowitą większą od zera.
+TooLong = Wybierz czas nie dłuższy niż 999 godzin.
+AlreadyScheduled = W systemie Windows zaplanowano już zamknięcie lub ponowne uruchomienie.\n\nZastąpić je tym?
+WindowsRefused = System Windows odrzucił żądanie (kod {0}).
+CouldNotRun = Nie można uruchomić programu shutdown.exe systemu Windows.
+ExistingCancelled = Gotowe, zaplanowane zamknięcie zostało anulowane.
+NothingToCancel = Nie było zaplanowanego zamknięcia.
+CloseCancelsTimer = Zamknięcie SleepyWindows anuluje odliczanie.\n\nZamknąć mimo to?
+HibernateUnavailable = Hibernacja jest wyłączona na tym komputerze.\n\nAby ją włączyć, otwórz wiersz polecenia jako administrator i uruchom: powercfg /h on
+SuspendFailed = System Windows nie mógł uśpić ani zahibernować komputera.

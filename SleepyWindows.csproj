@@ -17,7 +17,7 @@
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <AutomaticallyUseReferenceAssemblyPackages Condition="'$(FrameworkPathOverride)' != ''">false</AutomaticallyUseReferenceAssemblyPackages>
 
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <Product>SleepyWindows</Product>
     <AssemblyTitle>SleepyWindows</AssemblyTitle>
     <Description>Portable timer to shut down, restart, sleep or hibernate Windows.</Description>
@@ -32,6 +32,8 @@
          a BMP-frame .ico for the window/taskbar and a PNG for the header logo. -->
     <EmbeddedResource Include="assets\window.ico" LogicalName="SleepyWindows.window.ico" />
     <EmbeddedResource Include="assets\logo.png" LogicalName="SleepyWindows.logo.png" />
+    <!-- Every lang\*.txt is picked up automatically: adding a language needs no code change. -->
+    <EmbeddedResource Include="lang\*.txt" LogicalName="SleepyWindows.lang.%(Filename).txt" />
   </ItemGroup>
 
   <!-- Lets the project build with the dotnet CLI without Visual Studio installed.

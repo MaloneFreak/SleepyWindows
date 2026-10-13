@@ -1,0 +1,50 @@
+# SleepyWindows - Italiano
+
+_name = Italiano
+
+WhatToDo = Cosa fare?
+InHowLong = Tra quanto tempo?
+CustomTime = Tempo personalizzato
+UnitSeconds = sec
+UnitMinutes = min
+UnitHours = h
+PresetMinutes = {0} min
+PresetHours = {0} h
+PresetHoursMinutes = {0} h {1:00}
+Schedule = Pianifica
+CancelExisting = Annulla un arresto già pianificato
+Language = Lingua
+LanguageAuto = Automatica (lingua di Windows)
+
+ActionShutdown = Arresta
+ActionRestart = Riavvia
+ActionSleep = Sospendi
+ActionHibernate = Iberna
+
+CountdownShutdown = Arresto tra
+CountdownRestart = Riavvio tra
+CountdownSleep = Sospensione tra
+CountdownHibernate = Ibernazione tra
+Snooze = +15 min
+Cancel = Annulla
+
+AtTime = alle {0}
+TomorrowAt = domani alle {0}
+DateAt = il {0} alle {1}
+
+HintWindowsScheduler = Puoi chiudere l'app, Windows si occupa del resto. Salva prima il tuo lavoro: i programmi aperti verranno chiusi.
+HintAppTimer = Lascia SleepyWindows aperto (puoi ridurlo a icona). Chiudere l'app annulla il timer.
+
+CommentShutdown = Arresto pianificato da SleepyWindows.
+CommentRestart = Riavvio pianificato da SleepyWindows.
+
+InvalidNumber = Inserisci un numero intero maggiore di zero.
+TooLong = Scegli un tempo fino a 999 ore.
+AlreadyScheduled = In Windows è già pianificato un arresto o un riavvio.\n\nSostituirlo con questo?
+WindowsRefused = Windows ha rifiutato la richiesta (codice {0}).
+CouldNotRun = Impossibile eseguire shutdown.exe di Windows.
+ExistingCancelled = Fatto, l'arresto pianificato è stato annullato.
+NothingToCancel = Non c'era nessun arresto pianificato.
+CloseCancelsTimer = Chiudere SleepyWindows annulla il timer.\n\nChiudere comunque?
+HibernateUnavailable = L'ibernazione è disattivata su questo PC.\n\nPer attivarla, apri il Prompt dei comandi come amministratore ed esegui: powercfg /h on
+SuspendFailed = Windows non è riuscito a sospendere o ibernare il PC.

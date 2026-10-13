@@ -1,0 +1,50 @@
+# SleepyWindows - Nederlands
+
+_name = Nederlands
+
+WhatToDo = Wat moet er gebeuren?
+InHowLong = Over hoeveel tijd?
+CustomTime = Eigen tijd
+UnitSeconds = sec
+UnitMinutes = min
+UnitHours = uur
+PresetMinutes = {0} min
+PresetHours = {0} uur
+PresetHoursMinutes = {0}:{1:00} uur
+Schedule = Plannen
+CancelExisting = Een al geplande afsluiting annuleren
+Language = Taal
+LanguageAuto = Automatisch (Windows-taal)
+
+ActionShutdown = Afsluiten
+ActionRestart = Opnieuw opstarten
+ActionSleep = Slaapstand
+ActionHibernate = Sluimerstand
+
+CountdownShutdown = Afsluiten over
+CountdownRestart = Opnieuw opstarten over
+CountdownSleep = Slaapstand over
+CountdownHibernate = Sluimerstand over
+Snooze = +15 min
+Cancel = Annuleren
+
+AtTime = om {0}
+TomorrowAt = morgen om {0}
+DateAt = op {0} om {1}
+
+HintWindowsScheduler = Je kunt de app sluiten, Windows doet de rest. Sla eerst je werk op: geopende programma's worden gesloten.
+HintAppTimer = Laat SleepyWindows open (minimaliseren mag). Als je de app sluit, wordt de timer geannuleerd.
+
+CommentShutdown = Afsluiten gepland door SleepyWindows.
+CommentRestart = Opnieuw opstarten gepland door SleepyWindows.
+
+InvalidNumber = Voer een geheel getal groter dan nul in.
+TooLong = Kies een tijd van maximaal 999 uur.
+AlreadyScheduled = Er is in Windows al een afsluiting of herstart gepland.\n\nVervangen door deze?
+WindowsRefused = Windows heeft het verzoek geweigerd (code {0}).
+CouldNotRun = Kan shutdown.exe van Windows niet uitvoeren.
+ExistingCancelled = Klaar, de geplande afsluiting is geannuleerd.
+NothingToCancel = Er was geen afsluiting gepland.
+CloseCancelsTimer = Als je SleepyWindows sluit, wordt de timer geannuleerd.\n\nToch sluiten?
+HibernateUnavailable = De sluimerstand is uitgeschakeld op deze pc.\n\nOpen de opdrachtprompt als administrator en voer uit om deze in te schakelen: powercfg /h on
+SuspendFailed = Windows kon de pc niet in de slaapstand of sluimerstand zetten.

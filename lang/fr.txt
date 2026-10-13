@@ -1,0 +1,50 @@
+# SleepyWindows - Français
+
+_name = Français
+
+WhatToDo = Que faire ?
+InHowLong = Dans combien de temps ?
+CustomTime = Durée personnalisée
+UnitSeconds = s
+UnitMinutes = min
+UnitHours = h
+PresetMinutes = {0} min
+PresetHours = {0} h
+PresetHoursMinutes = {0} h {1:00}
+Schedule = Programmer
+CancelExisting = Annuler un arrêt déjà programmé
+Language = Langue
+LanguageAuto = Automatique (langue de Windows)
+
+ActionShutdown = Arrêter
+ActionRestart = Redémarrer
+ActionSleep = Veille
+ActionHibernate = Veille prolongée
+
+CountdownShutdown = Arrêt dans
+CountdownRestart = Redémarrage dans
+CountdownSleep = Mise en veille dans
+CountdownHibernate = Veille prolongée dans
+Snooze = +15 min
+Cancel = Annuler
+
+AtTime = à {0}
+TomorrowAt = demain à {0}
+DateAt = le {0} à {1}
+
+HintWindowsScheduler = Vous pouvez fermer l'application, Windows s'occupe du reste. Enregistrez d'abord votre travail : les programmes ouverts seront fermés.
+HintAppTimer = Laissez SleepyWindows ouvert (vous pouvez le réduire). Fermer l'application annule le minuteur.
+
+CommentShutdown = Arrêt programmé par SleepyWindows.
+CommentRestart = Redémarrage programmé par SleepyWindows.
+
+InvalidNumber = Saisissez un nombre entier supérieur à zéro.
+TooLong = Choisissez une durée de 999 heures maximum.
+AlreadyScheduled = Un arrêt ou un redémarrage est déjà programmé dans Windows.\n\nLe remplacer par celui-ci ?
+WindowsRefused = Windows a refusé la demande (code {0}).
+CouldNotRun = Impossible d'exécuter shutdown.exe de Windows.
+ExistingCancelled = C'est fait, l'arrêt programmé a été annulé.
+NothingToCancel = Aucun arrêt n'était programmé.
+CloseCancelsTimer = Fermer SleepyWindows annule le minuteur.\n\nFermer quand même ?
+HibernateUnavailable = La veille prolongée est désactivée sur ce PC.\n\nPour l'activer, ouvrez l'invite de commandes en tant qu'administrateur et exécutez : powercfg /h on
+SuspendFailed = Windows n'a pas pu mettre le PC en veille ou en veille prolongée.
